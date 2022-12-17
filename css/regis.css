@@ -86,7 +86,8 @@ body{
 }
 
 .wrapper .form_wrap h2{
-	color: rgb(61, 61, 61);;
+	color: rgb(61, 61, 61);
+	font-weight: 500;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -105,21 +106,30 @@ body{
 .wrapper .form_wrap .input_wrap label{
 	display: block;
 	margin-bottom: 5px;
-	margin-left: 0.5rem;
+	margin-left: 1.4rem;
+	font-size: 14px;
+	margin-top: 2rem;
 }
 
 .wrapper .form_wrap .input_wrap .input{
 	border: 2px solid #bfc0c0;
 	border-radius: 5px;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	color: #595959;
+	background: #efefef;
 	padding: 10px;
 	display: block;
 	width: 100%;	
 	font-size: 16px;
 	transition: 0.5s ease;
+	box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
 }
 
 .wrapper .form_wrap .input_wrap .input:focus{
 	border-color: teal;
+	padding-left: 2rem;
 }
 
 .wrapper .btns_wrap{
