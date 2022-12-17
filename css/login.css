@@ -12,15 +12,13 @@ body {
 }
 
 body {
-  display: grid;
-  place-items: center;
-  text-align: center;
   background: #dde1e7;
 }
 .alert {
   font-size: 12px;
 }
 .wrapper {
+  margin: auto;
   width: 360px;
   background: #dde1e7;
   border-radius: 10px;
@@ -106,9 +104,20 @@ p a:hover {
   text-decoration: none;
 }
 
-.ad1{
-  color: rgb(10, 49, 97);
-  background-color: #efefef;
+.navbar{
+  background-color: white;
   padding: 1.5rem;
-  border-radius: 10px;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
 }
+
+.navbar a{
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.heright{
+  margin-left: 50rem;
+}
+  
