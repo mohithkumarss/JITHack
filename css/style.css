@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins";
+  background: rgb(244, 244, 255);
+}
+
+.left {
+  color: rgb(10, 49, 97);
+  background-color: #efefef;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  max-width: 70%;
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+
+#a1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.content {
+  max-width: 95%;
+  text-align: justify;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+#h2 {
+  color: rgb(10, 49, 97);
+  background-color: #f3f3f3;
+  padding: 3rem;
+  margin: 2rem;
+  border-radius: 2rem;
+  width: 30%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+
+#r1, #r2,#r3 {
+  color: white;
+  background-color: teal;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1.2rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+#r4{
+  color: white;
+  background-color: teal;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.anchor:focus {
+  color: lavender;
+  box-shadow: inset 2px 2px 5px #000;
+}
