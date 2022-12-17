@@ -40,6 +40,7 @@ body {
   margin: 2rem;
   border-radius: 2rem;
   width: 30%;
+  height: 50%;
 }
 
 .login {
@@ -54,12 +55,11 @@ body {
 #r1, #r2,#r3 {
   color: white;
   background-color: teal;
-  margin-bottom: 10px;
   text-align: center;
   padding: 1.2rem;
   border-radius: 10px;
   font-size: 1rem;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #r4{
